@@ -6,9 +6,9 @@ var response = ['It is certain', 'It is decidedly so', 'Without a doubt', 'Yes d
 var server = net.createServer(function(c){
 
 	c.on('data', function(data){
-if (data.toString().trim()!== 'hello server'){
+if (data.toString().trim()){
 	var random = Math.floor(Math.random() * response.length);
-	c.write(response[random])
+	c.write(response[random] + '\n')
 	}
 
 })
