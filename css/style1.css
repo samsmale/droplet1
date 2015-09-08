@@ -1,0 +1,77 @@
+html { 
+  background: url(https://images.unsplash.com/43/L6sQn4GyQdSBW7pLgEz7_DSC_0013.JPG?q=80&fm=jpg&s=da764c0ec28e789ee31a77449652080d) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.logo {
+	font-family: 'avenir next', sans-serif;
+	font-size: 12vw;
+	font-weight: bold;
+	text-align: center;
+	color: #FEF860;
+	margin-top: 8vh;
+	margin-bottom:0;
+}
+
+.slogan1 {
+	font-family: 'avenir next', sans-serif;
+	font-size: 4vw;
+	text-align: center;
+	margin-top: -1vh;
+	margin-bottom: 2vh;
+
+}
+
+.slogan2 {
+	font-family: 'avenir next', sans-serif;
+	font-size: 8vw;
+	text-align: center;
+	font-weight: bold;
+	margin-top: -4vh;
+	margin-bottom: -4vh;
+}
+
+form {
+	font-family: 'avenir next', sans-serif;
+	margin: 0 auto;
+	width: 44vw;
+}
+
+.emaillabel {
+	display: block;
+	font-family: 'avenir next', sans-serif;
+	font-size: 2.5vw;
+	text-align: center;
+	height: 2.1vw;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+.emailinput {
+	width: 34vw;
+	height: 6vw;
+	font-size: 2.3vw;
+	vertical-align: center;
+	font-family: 'avenir next', sans-serif;
+	background:rgba(255,255,255,0.4);
+	border: 0;
+	-moz-border-radius:10px;-webkit-border-radius:5px;border-radius:5px;
+}
+
+button {
+	font-family: 'avenir next', sans-serif;
+	font-size: 2.5vw;
+	vertical-align: center;
+	font-weight: bold;
+	height: 6vw;
+	width: 9vw;
+	background: repeat-x center #FEF860;background-color:#FEF860;
+	border:1px solid #FEF860;
+	-moz-border-radius:10px;-webkit-border-radius:5px;border-radius:5px;
+	border-bottom:1px solid #9f9f9f;
+	-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+	cursor:pointer;
+}
